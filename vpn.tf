@@ -2,10 +2,11 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "=3.0.0"
+      version = "~> 3.0"  # Allows any version >= 3.0.0 and < 4.0.0
     }
   }
 }
+
 
 provider "azurerm" {
   skip_provider_registration = true  # Set to true if you lack permissions to register providers
