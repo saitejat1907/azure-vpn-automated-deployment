@@ -1,16 +1,12 @@
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "~> 3.0"  # Allows any version >= 3.0.0 and < 4.0.0
-    }
-  }
-}
-
-
 provider "azurerm" {
   skip_provider_registration = true  # Set to true if you lack permissions to register providers
+
   features {}
+
+  client_id       = var.client_id
+  client_secret   = var.client_secret
+  tenant_id       = var.tenant_id
+  subscription_id = var.subscription_id
 }
 
 resource "azurerm_resource_group" "example" {
