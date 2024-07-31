@@ -15,17 +15,17 @@ pipeline {
             }
         }
         
-        // stage('Terraform Plan') {
-        //     steps {
-        //         sh 'terraform plan -out=tfplan'
-        //     }
-        // }
+        stage('Terraform Plan') {
+            steps {
+                sh 'terraform plan -out=tfplan'
+            }
+        }
         
-        // stage('Terraform Apply') {
-        //     steps {
-        //         sh 'terraform apply -auto-approve tfplan'
-        //     }
-        // }
+        stage('Terraform Apply') {
+            steps {
+                sh 'terraform apply -auto-approve tfplan'
+            }
+        }
         
     }
 
