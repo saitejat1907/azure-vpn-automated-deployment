@@ -55,11 +55,19 @@ For the detailed configuration of the Jenkins job, you can find the setup instru
 
 - **Cloned GitHub Repository**:
 
-  ![Cloned GitHub Repository](URL_TO_ARCHITECTURE_IMAGE)
+  ![Cloned GitHub Repository](https://github.com/saitejat1907/azure-vpn-automated-deployment/blob/main/pic1.jpg)
 
-- **Jenkins Pipeline**:
+- **Webhook Trigger**:
 
-  ![Jenkins Pipeline Diagram](URL_TO_JENKINS_PIPELINE_IMAGE)
+  ![Webhook Trigger](https://github.com/saitejat1907/azure-vpn-automated-deployment/blob/main/pic2.jpg)
+
+- **Pipeline Job Completion Status**:
+
+  ![Pipeline Job Completion Status](https://github.com/saitejat1907/azure-vpn-automated-deployment/blob/main/pic3.jpg)
+
+- **Resource Deployment**:
+
+  ![Resource Deployment](https://github.com/saitejat1907/azure-vpn-automated-deployment/blob/main/pic4.jpg)
 
 ---
 
