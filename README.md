@@ -14,7 +14,7 @@ This project demonstrates the creation of an Azure Virtual Private Network (VPN)
 - **Modifications and Customizations**: This repository includes Terraform scripts and a Jenkins pipeline configuration specifically for creating and managing an Azure VPN.
 
 ## Link to Documentation
-For a detailed step-by-step approach to building the project and the results, refer to the [Project Documentation](YOUR_DOCUMENTATION_LINK_HERE).
+For a detailed step-by-step approach to building the project and the results, refer to the [Project Documentation](https://github.com/saitejat1907/azure-vpn-automated-deployment/blob/main/cicd%20with%20jenkins%20for%20terraform.pdf).
 
 ---
 
@@ -29,7 +29,7 @@ For a detailed step-by-step approach to building the project and the results, re
 ---
 
 ## Jenkins Job Configuration
-For the detailed configuration of the Jenkins job, you can find the setup instructions in the following link: [Jenkins Job Configuration](YOUR_LINK_HERE).
+For the detailed configuration of the Jenkins job, you can find the setup instructions in the following link: [Jenkins Job Configuration](https://github.com/saitejat1907/azure-vpn-automated-deployment/blob/main/cicd%20with%20jenkins%20for%20terraform.pdf).
 
 ---
 
@@ -51,12 +51,11 @@ For the detailed configuration of the Jenkins job, you can find the setup instru
 
 ---
 
-## Images & Diagrams
-Feel free to add any images or diagrams that better illustrate the infrastructure and workflow.
+## Results
 
-- **Azure VPN Architecture**:
+- **Cloned GitHub Repository**:
 
-  ![Azure VPN Architecture Diagram](URL_TO_ARCHITECTURE_IMAGE)
+  ![Cloned GitHub Repository](URL_TO_ARCHITECTURE_IMAGE)
 
 - **Jenkins Pipeline**:
 
